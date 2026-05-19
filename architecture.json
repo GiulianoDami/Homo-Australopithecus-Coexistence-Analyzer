@@ -1,0 +1,37 @@
+{
+    "language": "TypeScript",
+    "dependency_file": "package.json",
+    "dependencies": [],
+    "files": [
+        {
+            "path": "src/types.ts",
+            "description": "Type definitions for fossil records and analysis results",
+            "exports": ["interface FossilRecord", "interface CoexistenceResult", "interface ResourcePartitioningResult"]
+        },
+        {
+            "path": "src/FossilAnalyzer.ts",
+            "description": "Main analyzer class for processing fossil data and determining coexistence patterns",
+            "exports": ["class FossilAnalyzer"]
+        },
+        {
+            "path": "src/TemporalOverlapAnalyzer.ts",
+            "description": "Module for calculating temporal overlap between species",
+            "exports": ["class TemporalOverlapAnalyzer"]
+        },
+        {
+            "path": "src/DietaryComparisonEngine.ts",
+            "description": "Engine for comparing dietary evidence across species",
+            "exports": ["class DietaryComparisonEngine"]
+        },
+        {
+            "path": "src/MorphologicalAnalyzer.ts",
+            "description": "Analyzer for assessing morphological features and niche differentiation",
+            "exports": ["class MorphologicalAnalyzer"]
+        },
+        {
+            "path": "src/index.ts",
+            "description": "Entry point exporting all core functionality",
+            "exports": ["export { FossilAnalyzer } from './FossilAnalyzer'"]
+        }
+    ]
+}
