@@ -1,0 +1,1 @@
+export { FossilAnalyzer } from './FossilAnalyzer'
